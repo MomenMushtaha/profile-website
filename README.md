@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Personal Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my [personal website](https://mmush.com)! This is an [MIT licensed](https://api.github.com/MomenMushtaha/profile-website/blob/main/LICENSE) React-based Jamstack application. It offers a simple interface, easy modifications, static export capabilities, and free automatic deployments via [GitHub Pages](https://pages.github.com/).
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- Built with modern JavaScript, using tools and frameworks like [create-react-app](https://github.com/facebook/create-react-app), [React-Router](https://reactrouter.com/), and SCSS.
+- Automated workflows via [GitHub Actions](https://github.com/features/actions).
+- And more!
 
-### `npm start`
+## 🛠 Adapting this Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Want to create your own personal website based on this project? You can set it up in as little as 30 minutes! Follow the setup instructions below and check out the **[detailed guide and checklist](./docs/adapting-guide.md)** on adapting this project to your needs. If you encounter any challenges, don't hesitate to contact me through an issue or email at [help@mmush.com](mailto:help@mmush.com).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🤝 Contributing
 
-### `npm test`
+Your contributions are warmly welcomed! If you wish to contribute, please review the [design goals](./docs/design-goals.md), [roadmap](./docs/roadmap.md), and [contributing guidelines](./docs/contributing.md). For any bugs or suggestions, you can reach out via email, submit a pull request (I'd be happy to get you a coffee as a thank-you!), or open an issue.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔧 Dependencies
 
-### `npm run build`
+Ensure you have [node](https://nodejs.org/) >= v16. Optionally, use [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) to manage node versions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Setup and Running
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    git clone git://github.com/mldangelo/personal-site.git
+    cd personal-site
+    ```
 
-### `npm run eject`
+2. (Optional) Ensure you're on Node v16 or higher:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    nvm install
+    node --version
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    npm install
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Start the application:
 
-## Learn More
+    ```bash
+    npm start
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+By default, the application should be available at [http://localhost:3000/](http://localhost:3000/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚢 Deploying
 
-### Code Splitting
+### Deploying to GitHub Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Update the environment variables and Git remote URL in [`.github/workflows/github-pages.yml`](.github/workflows/github-pages.yml).
+2. Adjust the `homepage` value in `package.json` based on your hosting preferences.
+3. Planning on using a custom domain? Update `public/CNAME`. Otherwise, remove it.
 
-### Analyzing the Bundle Size
+After making a commit to `main`, simply push your changes, and the deployment will be handled automatically.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Static Export
 
-### Making a Progressive Web App
+For a static export without deploying to GitHub Pages:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Remove or disable `.github/workflows/github-pages.yml`.
+- Execute:
 
-### Advanced Configuration
+    ```bash
+    npm run predeploy
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This will generate a static version in `personal-site/build/` which you can host or deploy to a CDN.
 
-### Deployment
+## 🙌 Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Initial template from [Future Imperfect](https://html5up.net/future-imperfect) by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](html5up.net).
+- Special thanks to [@typpo](https://github.com/typpo) for tirelessly answering all of my node.js and react questions.
+- Kudos to [@notrueblood](https://github.com/notrueblood)[<sup>[1]</sup>](https://api.github.com/MomenMushtaha/profile-website/pull/218) and [@sjhsieh](https://github.com/sjhsieh)[<sup>[2]</sup>](https://api.github.com/MomenMushtaha/profile-website/issues/168) for their constructive feedback.
