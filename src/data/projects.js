@@ -4,10 +4,10 @@ const data = [
     title: 'Bookstore Web App – An ORM Project',
     subtitle: 'DevOps & ORM Project',
     link: 'https://github.com/MomenMushtaha/Bookstore',
-    image: '/images/projects/bookstore-uml.png',
+    image: '/images/projects/Bookstore-uml.png',
     date: '2023-04-01',
     desc:
-      'Contributed to the development of a bookstore web app using Spring Boot, and Spring MVC for server-side rendering. Utilized JPA for\n' +
+        'Contributed to the development of a bookstore web app using Spring Boot, and Spring MVC for server-side rendering. Utilized JPA for\n' +
         'ORM to handle database interactions, allowing for efficient management of relational data. Employed Maven for build automation and\n' +
         'HTML for structuring web pages. Implemented features for book inventory management, user browsing, sorting, filtering, and a\n' +
         'recommendation system using Jaccard distance. Deployed on Azure with continuous integration.',
@@ -47,7 +47,7 @@ const data = [
     title: '1921NFTMarketplace – A Web 3.0 Project',
     subtitle: '',
     link: 'https://https://github.com/MomenMushtaha/1921NFTMarketplace',
-    image: '/images/projects/CNN.png',
+    image: '/images/projects/Home.png',
     date: '2024-06-21',
     desc:
         'Built a decentralized NFT marketplace using Solidity to develop smart contracts on the Ethereum blockchain. Leveraged React.js and\n' +
