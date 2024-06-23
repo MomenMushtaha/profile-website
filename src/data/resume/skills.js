@@ -6,12 +6,12 @@ const skills = [
   },
   {
     title: 'Java',
-    competency: 3,
+    competency: 4,
     category: ['Languages'],
   },
   {
     title: 'C',
-    competency: 2,
+    competency: 3,
     category: ['Languages'],
   },
   {
@@ -26,12 +26,12 @@ const skills = [
   },
   {
     title: 'Dart',
-    competency: 2,
+    competency: 3,
     category: ['Languages'],
   },
   {
     title: 'Racket',
-    competency: 1,
+    competency: 2,
     category: ['Languages'],
   },
   {
@@ -41,12 +41,12 @@ const skills = [
   },
   {
     title: 'Rust',
-    competency: 2,
+    competency: 1,
     category: ['Languages'],
   },
   {
     title: 'Bash',
-    competency: 2,
+    competency: 3,
     category: ['Tools', 'Languages'],
   },
   {
@@ -66,7 +66,7 @@ const skills = [
   },
   {
     title: 'Git',
-    competency: 4,
+    competency: 3,
     category: ['Tools'],
   },
   {
@@ -81,7 +81,7 @@ const skills = [
   },
   {
     title: 'PyTorch',
-    competency: 4,
+    competency: 3,
     category: ['ML Engineering', 'Python'],
   },
   {
@@ -105,23 +105,28 @@ const skills = [
     category: ['ML Engineering', 'Python', 'Data Science'],
   },
   {
-    title: 'AWS',
+    title: 'GCP',
+    competency: 2,
+    category: ['Tools', 'Web Development'],
+  },
+  {
+    title: 'Firebase',
     competency: 2,
     category: ['Tools', 'Web Development'],
   },
   {
     title: 'Azure',
-    competency: 2,
+    competency: 3,
     category: ['Tools', 'Web Development'],
   },
   {
     title: 'Docker',
-    competency: 3,
+    competency: 2,
     category: ['Tools', 'Data Engineering'],
   },
   {
     title: 'Kubernetes',
-    competency: 2,
+    competency: 1,
     category: ['Tools', 'Data Engineering'],
   },
   {

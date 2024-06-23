@@ -20,7 +20,7 @@ const data = [
     icon: faInstagram,
   },
   {
-    link: 'https://www.linkedin.com/in/moe-mushtaha/',
+    link: 'https://www.linkedin.com/in/moemushtaha/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
