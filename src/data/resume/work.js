@@ -30,7 +30,6 @@ const work = [
     startDate: '2021-09-01',
     endDate: '2022-08-30',
     highlights: [
-      'Trained a model for the Brazilian Coffee Scenes Dataset with better than state of the art accuracy.',
     'Implemented scripts to automate recurring weekly processes for teams in Sweden and Poland, reducing manual effort. The\n' +
     'automation included data aggregation, report generation, and system monitoring, achieving timely and accurate execution of tasks.',
     'Executed automated scripts to migrate internal information sources (Wikis) to Confluence. This process included data extraction,\n' +
