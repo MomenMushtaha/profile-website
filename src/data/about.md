@@ -1,6 +1,6 @@
 # Intro
 
-I am an AI Engineer specializing in Advanced Reinforcement Learning from Human Feedback(RLHF),
+I am an Software Engineer specializing in Advanced Reinforcement Learning from Human Feedback(RLHF),
 primarily using Pandas in Python along with other common statistical libraries.
 My first significant work experience was at Carleton University, where my team focused on predicting the spread of
 COVID-19 in each neighbourhood in Ontario through machine learning models and simulations.

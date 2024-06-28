@@ -6,12 +6,12 @@ const skills = [
   },
   {
     title: 'Java',
-    competency: 3,
+    competency: 4,
     category: ['Languages'],
   },
   {
     title: 'C',
-    competency: 2,
+    competency: 3,
     category: ['Languages'],
   },
   {
@@ -26,12 +26,12 @@ const skills = [
   },
   {
     title: 'Dart',
-    competency: 2,
+    competency: 3,
     category: ['Languages'],
   },
   {
     title: 'Racket',
-    competency: 1,
+    competency: 2,
     category: ['Languages'],
   },
   {
@@ -46,12 +46,12 @@ const skills = [
   },
   {
     title: 'Bash',
-    competency: 2,
+    competency: 3,
     category: ['Tools', 'Languages'],
   },
   {
     title: 'React',
-    competency: 4,
+    competency: 5,
     category: ['Blockchain Development','Web Development', 'Javascript'],
   },
   {
@@ -81,7 +81,7 @@ const skills = [
   },
   {
     title: 'PyTorch',
-    competency: 4,
+    competency: 3,
     category: ['ML Engineering', 'Python'],
   },
   {
@@ -105,13 +105,8 @@ const skills = [
     category: ['ML Engineering', 'Python', 'Data Science'],
   },
   {
-    title: 'AWS',
-    competency: 2,
-    category: ['Tools', 'Web Development'],
-  },
-  {
     title: 'Azure',
-    competency: 2,
+    competency: 3,
     category: ['Tools', 'Web Development'],
   },
   {
@@ -131,7 +126,7 @@ const skills = [
   },
   {
     title: 'Node.js',
-    competency: 3,
+    competency: 4,
     category: ['Blockchain Development','Web Development', 'Javascript'],
   },
   {
@@ -156,7 +151,7 @@ const skills = [
   },
   {
     title: 'SQLite',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Databases'],
   },
   {
@@ -181,17 +176,12 @@ const skills = [
   },
   {
     title: 'Prompt Engineering',
-    competency: 2,
+    competency: 5,
     category: ['ML Engineering'],
   },
   {
     title: 'Machine Learning',
-    competency: 4,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'AI Engineering',
-    competency: 4,
+    competency: 3,
     category: ['ML Engineering'],
   },
   {
@@ -246,22 +236,32 @@ const skills = [
   },
   {
     title: 'Solidity',
-    competency: 3,
+    competency: 5,
     category: ['Blockchain Development', 'Languages'],
   },
   {
     title: 'Ether.js',
+    competency: 5,
+    category: ['Blockchain Development', 'Javascript'],
+  },
+  {
+    title: 'Web3.js',
     competency: 3,
     category: ['Blockchain Development', 'Javascript'],
   },
   {
     title: 'Hardhat',
-    competency: 3,
+    competency: 5,
     category: ['Blockchain Development', 'Tools'],
   },
   {
+    title: 'Truffle',
+    competency: 3,
+    category: ['Blockchain Development', 'Javascript'],
+  },
+  {
     title: 'Sanity.io',
-    competency: 2,
+    competency: 3,
     category: ['Web Development', 'Tools'],
   }
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));

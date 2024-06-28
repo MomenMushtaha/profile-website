@@ -1,9 +1,23 @@
 // TODO Add a couple lines about each project
 const data = [
+
+  {
+    title: 'CryptoZombies Practice – A Solidity Project',
+    subtitle: '',
+    link: 'https://github.com/MomenMushtaha/CryptoZombiesPractice-Solidity-Beginner-to-Intermediate-Smart-Contracts-Course',
+    image: '/images/projects/CryptoZombies-Demo.png',
+    date: '2024-06-27',
+    desc:
+        'Developed smart contracts and decentralized applications (DApps) on the Ethereum blockchain. Explored advanced Solidity topics like inheritance,\n' +
+        'libraries, and security. Learned about the ERC20 and ERC721 standards, and built user interfaces using Web3.js to interact with smart contracts.\n' +
+        'After finishing the course, annotated all the source code with NatSpec comments to enhance documentation and readability.\n' +
+        'This project demonstrates proficiency in blockchain technology, smart contract development, and decentralized application.',
+  },
+
   {
     title: '1921NFTMarketplace – A Web 3.0 Project',
     subtitle: '',
-    link: 'https://https://github.com/MomenMushtaha/1921NFTMarketplace',
+    link: 'https://github.com/MomenMushtaha/1921NFTMarketplace',
     image: '/images/projects/1921NFTMarketplace-Demo.png',
     date: '2024-06-21',
     desc:

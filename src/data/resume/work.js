@@ -14,7 +14,7 @@
 const work = [
   {
     name: 'Micro1',
-    position: 'AI Engineer',
+    position: 'Software Engineer',
     url: 'https://www.micro1.ai',
     startDate: '2024-02-25',
       highlights: [
