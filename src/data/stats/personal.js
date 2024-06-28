@@ -34,7 +34,7 @@ const data = [
   {
     key: 'location',
     label: 'Current city',
-    value: 'London, Ontario, Canada',
+    value: 'Ottawa/Dubai',
   },
 ];
 
