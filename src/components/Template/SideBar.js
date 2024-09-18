@@ -13,13 +13,14 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Momen Mushtaha</h2>
+        <h4>Data Science | Python | NLP | AI/ML finetuning</h4>
         <p><a href="mailto:mush.momen@gmail.com">mush.momen@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>I&apos;m Momen, a <a href="https://carleton.ca/">Carleton Engineering</a> graduate,
+      <p>I'm Momen, a <a href="https://carleton.ca/">Carleton Engineering</a> graduate,
         and a Software Engineer at <a href="https://www.micro1.ai">Micro1</a>.
       </p>
       <ul className="actions">
