@@ -14,7 +14,7 @@
 const work = [
   {
     name: 'Micro1',
-    position: 'Software Engineer',
+    position: 'AI Software Engineer',
     url: 'https://www.micro1.ai',
     startDate: '2024-02-25',
       highlights: [
@@ -25,7 +25,7 @@ const work = [
   },
   {
     name: 'Ericsson',
-    position: 'Software Engineer – Scripting & Automation ',
+    position: 'Software Automation Engineer',
     url: 'https://www.ericsson.com',
     startDate: '2021-09-01',
     endDate: '2022-08-30',
@@ -39,7 +39,7 @@ const work = [
   },
   {
     name: 'Carleton University ARS Lab',
-    position: 'Software Engineer – Data Visualization ',
+    position: 'Software Engineer',
     url: 'https://carleton.ca/vsim/engineering/ars-lab/',
     startDate: '2020-10-01',
     endDate: '2021-04-30',

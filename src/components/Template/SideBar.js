@@ -21,7 +21,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>I'm Momen, a <a href="https://carleton.ca/">Carleton Engineering</a> graduate,
-        and a Software Engineer at <a href="https://www.micro1.ai">Micro1</a>.
+        and an AI Software Engineer at <a href="https://www.micro1.ai">Micro1</a>.
       </p>
       <ul className="actions">
         <li>
