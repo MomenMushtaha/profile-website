@@ -12,14 +12,14 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpeg`} alt="" />
       </Link>
       <header>
-        <h2>Mo&apos;men Mushtaha</h2>
+        <h2>Momen Mushtaha</h2>
         <p><a href="mailto:mush.momen@gmail.com">mush.momen@gmail.com</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>I&apos;m Mo'men, a <a href="https://carleton.ca/">Carleton Engineering</a> graduate,
+      <p>I&apos;m Momen, a <a href="https://carleton.ca/">Carleton Engineering</a> graduate,
         and a Software Engineer at <a href="https://www.micro1.ai">Micro1</a>.
       </p>
       <ul className="actions">
@@ -31,7 +31,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Mo&apos;men Mushtaha <Link to="/">mmush.com</Link>.</p>
+      <p className="copyright">&copy; Momen Mushtaha <Link to="/">mmush.com</Link>.</p>
     </section>
   </section>
 );
