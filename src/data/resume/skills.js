@@ -16,7 +16,7 @@ const skills = [
   },
   {
     title: 'JavaScript',
-    competency: 4,
+    competency: 3,
     category: ['Blockchain Development', 'Web Development', 'Languages', 'Javascript'],
   },
   {
@@ -30,33 +30,23 @@ const skills = [
     category: ['Languages'],
   },
   {
-    title: 'Racket',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
     title: 'HTML/CSS',
-    competency: 4,
+    competency: 3,
     category: ['Web Development', 'Languages'],
   },
   {
-    title: 'Rust',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
     title: 'Bash',
-    competency: 3,
+    competency: 2,
     category: ['Tools', 'Languages'],
   },
   {
     title: 'React',
-    competency: 5,
+    competency: 4,
     category: ['Blockchain Development','Web Development', 'Javascript'],
   },
   {
     title: 'Spring Boot',
-    competency: 3,
+    competency: 2,
     category: ['Web Development'],
   },
   {
@@ -90,18 +80,8 @@ const skills = [
     category: ['Data Science', 'Data Engineering', 'Python', 'ML Engineering'],
   },
   {
-    title: 'SciPy',
-    competency: 4,
-    category: ['ML Engineering', 'Python'],
-  },
-  {
     title: 'Matplotlib',
-    competency: 4,
-    category: ['ML Engineering', 'Python', 'Data Science'],
-  },
-  {
-    title: 'Seaborn',
-    competency: 4,
+    competency: 3,
     category: ['ML Engineering', 'Python', 'Data Science'],
   },
   {
@@ -110,12 +90,12 @@ const skills = [
     category: ['Tools', 'Web Development'],
   },
   {
-    title: 'Docker',
+    title: 'Vercel',
     competency: 3,
-    category: ['Tools', 'Data Engineering'],
+    category: ['Tools', 'Web Development'],
   },
   {
-    title: 'Kubernetes',
+    title: 'Docker',
     competency: 2,
     category: ['Tools', 'Data Engineering'],
   },
@@ -126,7 +106,7 @@ const skills = [
   },
   {
     title: 'Node.js',
-    competency: 4,
+    competency: 3,
     category: ['Blockchain Development','Web Development', 'Javascript'],
   },
   {
@@ -136,12 +116,12 @@ const skills = [
   },
   {
     title: 'Flask',
-    competency: 4,
+    competency: 3,
     category: ['Web Development', 'Python'],
   },
   {
     title: 'Django',
-    competency: 3,
+    competency: 2,
     category: ['Web Development', 'Python'],
   },
   {
@@ -155,11 +135,6 @@ const skills = [
     category: ['Web Development', 'Databases'],
   },
   {
-    title: 'MongoDB',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
     title: 'ORM',
     competency: 3,
     category: ['Web Development'],
@@ -170,17 +145,17 @@ const skills = [
     category: ['Web Development'],
   },
   {
-    title: 'SaaS',
-    competency: 2,
-    category: ['Web Development'],
-  },
-  {
     title: 'Prompt Engineering',
     competency: 5,
     category: ['ML Engineering'],
   },
   {
     title: 'Machine Learning',
+    competency: 3,
+    category: ['ML Engineering'],
+  },
+  {
+    title: 'Fine-tuning',
     competency: 3,
     category: ['ML Engineering'],
   },
@@ -225,23 +200,13 @@ const skills = [
     category: ['Tools'],
   },
   {
-    title: 'DevOps',
-    competency: 3,
-    category: ['Tools'],
-  },
-  {
-    title: 'GraphQL',
-    competency: 1,
-    category: ['Web Development', 'Databases'],
-  },
-  {
     title: 'Solidity',
-    competency: 5,
+    competency: 3,
     category: ['Blockchain Development', 'Languages'],
   },
   {
     title: 'Ether.js',
-    competency: 5,
+    competency: 3,
     category: ['Blockchain Development', 'Javascript'],
   },
   {
@@ -251,19 +216,9 @@ const skills = [
   },
   {
     title: 'Hardhat',
-    competency: 5,
+    competency: 2,
     category: ['Blockchain Development', 'Tools'],
   },
-  {
-    title: 'Truffle',
-    competency: 3,
-    category: ['Blockchain Development', 'Javascript'],
-  },
-  {
-    title: 'Sanity.io',
-    competency: 3,
-    category: ['Web Development', 'Tools'],
-  }
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
 const colors = [
